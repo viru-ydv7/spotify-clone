@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/69c19ddc0d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container flex">
+        <div class="left">
+            <div class="home-ka-bap bg-color border-rounded ">
+                <img class="close invert" src="images/close.svg" alt=""> 
+                <div class="home pointer font  "  >
+                    <div class="invert">
+                        <img src="images/logo.svg" alt="logo">
+                    </div>
+                    
+                    <div class="list">
+                        <ul>
+                            <li><img class="home invert" src="images/home.svg" alt="Home">Home</li>
+                            <li><img class="search invert" src="images/search.svg" alt="Search">Search</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            
+
+
+            <div class="library  font bg-color border-rounded">
+                <div class="heading pointer">
+                    <div class="lib "></div>
+                    <img class="invert" src="images/lib.svg" alt="lib">
+
+                    Your library
+
+                    <!-- <i class="fa-solid fa-plus"></i> -->
+                </div>
+                <div class="songList pointer">
+                    <ul>
+
+                    </ul>
+                    
+                </div>
+
+                
+
+
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+
+                    <div class="additional-div"><a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener"><span>Cookies</span></a></div>
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="right">
+            <div class="header border-rounded">
+                <div class="nav">
+                    
+                    <img class="hamburger invert" src="images/hamburger.svg" alt="">
+                    <i class="fa-solid fa-less-than"></i>
+                    <i class="fa-solid fa-greater-than"></i>
+                </div>
+                <div class="buttons">
+                    <button class="sign-up">Sign up</button>
+                    <button class="log-in">Log in</button>
+                </div>
+            </div>
+
+            <div class="spotifyPlaylist font">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div data-folder="gow" class="card border-rounded pointer">
+                        <div class="play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <img src="https://m.media-amazon.com/images/M/MV5BMTc5NjY4MjUwNF5BMl5BanBnXkFtZTgwODM3NzM5MzE@._V1_.jpg" alt="">
+                        <h2>Gangs of Wasseypur
+                        </h2>
+                        <!-- <p>Wake up at your own pace with gentle piano music.</p> -->
+                    </div>
+
+                    <div data-folder="delhibelly" class="card border-rounded pointer">
+                        <div class="play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <img src="https://upload.wikimedia.org/wikipedia/en/8/82/Delhi_belly_poster.jpg" alt="">
+                        <h2>Delhi Belly</h2>
+                        <!-- <p>Wake up at your own pace with gentle piano music.</p> -->
+                    </div>
+
+                    <div data-folder="bajrangi" class="card border-rounded pointer">
+                        <div class="play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <img src="https://m.media-amazon.com/images/M/MV5BMGE3Yjg3NzItNjlmOS00YjY2LThiMDctMzM0NDA2NmExYTg4XkEyXkFqcGdeQXVyMTQ3ODQ3NTcz._V1_.jpg" alt="">
+                        <h2>Bajrangi Bhaijaan</h2>
+                        <!-- <p>Wake up at your own pace with gentle piano music.</p> -->
+                    </div>
+
+                    <div data-folder="aashiqui" class="card border-rounded pointer">
+                        <div class="play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <img src="https://upload.wikimedia.org/wikipedia/en/f/f3/Aashiqui_2_%28Poster%29.jpg" alt="">
+                        <h2>Aashiqui 2
+                        </h2>
+                        <!-- <p>Wake up at your own pace with gentle piano music.</p> -->
+                    </div>
+
+                    <div data-folder="adhm" class="card border-rounded pointer">
+                        <div class="play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Ae_Dil_Hai_Mushkil.jpg/220px-Ae_Dil_Hai_Mushkil.jpg" alt="">
+                        <h2>Ae Dil Hai Mushkil</h2>
+                        <!-- <p>Wake up at your own pace with gentle piano music.</p> -->
+                    </div>
+
+                    <div data-folder="pk" class="card border-rounded pointer">
+                        <div class="play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <img src="https://m.media-amazon.com/images/M/MV5BMTYzOTE2NjkxN15BMl5BanBnXkFtZTgwMDgzMTg0MzE@._V1_.jpg" alt="">
+                        <h2>PK</h2>
+                        <!-- <p>Wake up at your own pace with gentle piano music.</p> -->
+                    </div>     
+                    
+
+
+
+                    
+                </div>
+            </div>
+            
+            <div class="player">
+                <div class="seekbar pointer">
+                    </div>
+                    <div class="circle pointer">
+                </div>
+
+                <div class="abovebar">
+
+                
+                    <div class="song-ki-details">
+                        
+                    </div>
+
+                    
+                    <div class="songButtons">
+                        <i id="previous" class=" fa-solid fa-backward-step pointer"></i>
+                        <img id="play" class="pointer" src="images/play.svg" alt="">
+                        <i id="next" class=" fa-solid fa-forward-step pointer"></i>
+                    </div>
+
+                    <div class="timevol">
+                        <div class="songTime">
+                                
+                        </div>
+                        <div class="volume pointer">
+                            <img class="volumeButton invert" src="images/volume.svg" alt="">
+                            
+                            <input class="vol-range pointer" type="range" name="volume">
+                        </div>
+
+                    </div>
+                
+            </div>
+
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+

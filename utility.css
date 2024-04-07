@@ -1,0 +1,36 @@
+.border{
+    border: solid 2px red;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.items-align{
+    align-items: center;
+}
+
+.invert{
+    filter: invert(1);
+}
+.bg-color{
+    background-color:#121212;
+}
+
+.border-rounded{
+    border-radius: 14px;
+}
+
+.font{
+    font-family: "Varela Round", sans-serif;
+    font-weight: 700;
+}
+
+.pointer:hover{
+    cursor: pointer;
+}
+
